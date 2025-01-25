@@ -1,4 +1,5 @@
-// Файл: Employee.java
+package org.example;
+
 public class Employee {
     private String fullName;
     private String position;
@@ -7,7 +8,6 @@ public class Employee {
     private double salary;
     private int age;
 
-    // Конструктор класса Employee
     public Employee(String fullName, String position, String email, String phone, double salary, int age) {
         this.fullName = fullName;
         this.position = position;
@@ -17,7 +17,6 @@ public class Employee {
         this.age = age;
     }
 
-    // Метод для вывода информации о сотруднике
     public void printInfo() {
         System.out.println("ФИО: " + fullName);
         System.out.println("Должность: " + position);
